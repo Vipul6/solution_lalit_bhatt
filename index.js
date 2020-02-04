@@ -39,4 +39,4 @@ const clicks = [
 // Get resuktset data for clicks array
 const resultset = data.getSubsetOfClicks(clicks)
 // save the file in the JSON file, file will be saved in the same directory itself
-save.saveFile();
+save.saveFile(resultset);
