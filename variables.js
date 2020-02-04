@@ -1,6 +1,6 @@
 // This is a variable file for feeding data to test.js
 
-inputClicks = [
+const inputClicks = [
   { ip: "11.11.11.11", timestamp: "3/12/2016 02:02:58", amount: 7.0 },
   { ip: "22.22.22.22", timestamp: "3/11/2016 02:02:58", amount: 7.0 },
   { ip: "11.11.11.11", timestamp: "3/11/2016 02:12:32", amount: 6.5 },
@@ -35,7 +35,7 @@ inputClicks = [
   { ip: "55.55.55.55", timestamp: "3/11/2016 18:19:20", amount: 9.0 },
   { ip: "22.22.22.22", timestamp: "3/11/2016 23:59:59", amount: 9.0 }
 ];
-outputClicks = [
+const outputClicks = [
   { ip: "11.11.11.11", timestamp: "3/12/2016 02:02:58", amount: 7 },
   { ip: "11.11.11.11", timestamp: "3/11/2016 02:13:11", amount: 7.25 },
   { ip: "44.44.44.44", timestamp: "3/11/2016 02:13:54", amount: 8.75 },

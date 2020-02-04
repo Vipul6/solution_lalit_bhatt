@@ -1,5 +1,5 @@
-var save = require("./saveFile.js");
-var data = require("./getData.js");
+const save = require("./saveFile.js");
+const data = require("./getData.js");
 
 // Provided JSON array, can be read from the file directly, but nothing was mentioned regarding that in the Assignment
 const clicks = [

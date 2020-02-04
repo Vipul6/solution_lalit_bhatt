@@ -1,7 +1,7 @@
-var data = require("./getData.js");
-var save = require("./saveFile.js");
-var variables = require("./variables.js");
-var assert = require("assert");
+const data = require("./getData.js");
+const save = require("./saveFile.js");
+const variables = require("./variables.js");
+const assert = require("assert");
 
 describe("Get Subset of Clicks test", function() {
   context("With valid arguments", function() {
